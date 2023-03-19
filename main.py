@@ -12,7 +12,7 @@ padle = Padle()
 is_game_on = True
 while is_game_on:
     screen.update()
-    time.sleep(0.1)
+    # time.sleep(0.1)
     screen.listen()
     screen.onkey(fun=padle.move_down, key='Down')
     screen.onkey(fun=padle.move_up, key='Up')
